@@ -1081,7 +1081,6 @@ function Helper($paramname, $addstring) {
                 LyricsMatch      = '(Enable Lyrics match labels in search results",default:)(!1)', '$1true'  
                 Equalizer        = '(Enable audio equalizer for Desktop and Web Player",default:)(!1)', '$1true' 
                 DevicePickerOld  = '(Enable showing a new and improved device picker UI",default:)(!.)', '$1false'
-                NewHome          = '(Enable the new home structure and navigation",values:.,default:)(..DISABLED)', '$1false'
                 MadeForYou       = '(Show "Made For You" entry point in the left sidebar.,default:)(!1)', '$1true'
                 ClearCache       = '(Enable option in settings to clear all downloads",default:)(!1)', '$1true'
                 CarouselsonHome  = '(Use carousels on Home",default:)(!1)', '$1true'
