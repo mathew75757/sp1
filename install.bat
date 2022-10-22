@@ -70,7 +70,7 @@ param
     [switch]$device_picker_old,
 
     [Parameter(HelpMessage = 'Disable the new home structure and navigation.')]
-    [switch]$navalt_off,
+    [switch]$navalt_on,
 
     [Parameter(HelpMessage = 'Enable new left sidebar.')]
     [switch]$left_sidebar_on,
