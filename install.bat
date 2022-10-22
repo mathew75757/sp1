@@ -46,7 +46,7 @@ param
     [switch]$hide_col_icon_off,
     
     [Parameter(HelpMessage = 'Do not enable the Made For You button on the left sidebar.')]
-    [switch]$made_for_you_on,
+    [switch]$made_for_you_off,
     
     [Parameter(HelpMessage = 'Do not enable enhance playlist.')]
     [switch]$enhance_playlist_off,
@@ -64,13 +64,13 @@ param
     [switch]$ignore_in_recommendations_off,
 
     [Parameter(HelpMessage = 'Enable audio equalizer for Desktop.')]
-    [switch]$equalizer_on,
+    [switch]$equalizer_off,
     
     [Parameter(HelpMessage = 'Return the old device picker')]
     [switch]$device_picker_old,
 
     [Parameter(HelpMessage = 'Disable the new home structure and navigation.')]
-    [switch]$navalt_on,
+    [switch]$navalt_off,
 
     [Parameter(HelpMessage = 'Enable new left sidebar.')]
     [switch]$left_sidebar_on,
@@ -1081,7 +1081,6 @@ function Helper($paramname, $addstring) {
                 LyricsMatch      = '(Enable Lyrics match labels in search results",default:)(!1)', '$1true'  
                 Equalizer        = '(Enable audio equalizer for Desktop and Web Player",default:)(!1)', '$1true' 
                 DevicePickerOld  = '(Enable showing a new and improved device picker UI",default:)(!.)', '$1false'
-                MadeForYou       = '(Show "Made For You" entry point in the left sidebar.,default:)(!1)', '$1true'
                 ClearCache       = '(Enable option in settings to clear all downloads",default:)(!1)', '$1true'
                 CarouselsonHome  = '(Use carousels on Home",default:)(!1)', '$1true'
                 LeftSidebar      = '(Enable Your Library X view of the left sidebar",default:)(!1)', '$1true'
